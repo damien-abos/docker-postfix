@@ -1,0 +1,2 @@
+default._domainkey      IN      TXT     ( "v=DKIM1; k=rsa; s=email; "
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLc5xMOYv29tvfubK3qboqNhNvUMa7CB5ld0sLrOBWl1YbEB8zJsRzAmA9NtZrNgPpijc5QS2uLl0i4QS1hiCW1DbaSZT1IRGMB7dHX4leA7+N2bT6AfPIA/hJ1ELCcOMEuN5zadSfpvoQKcSWLr0HmZ7/7EKy1AFruCUZMOoidwIDAQAB" )  ; ----- DKIM key default for domain.tld

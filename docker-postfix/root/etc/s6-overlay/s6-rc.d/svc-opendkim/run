@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+exec /usr/sbin/opendkim -p /run/opendkim/opendkim.sock -P /run/opendkim/pid -d $MYDOMAIN -k /config/dkim/default.private -u abc

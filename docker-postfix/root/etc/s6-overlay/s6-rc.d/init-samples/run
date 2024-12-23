@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+# copy dkim samples if none exists
+if [[ ! -f "/config/dkim/default.private" ]]; then
+    cp /defaults/dkim/default.private /config/dkim/default.private
+fi
+
+if [[ ! -f "/config/dkim/default.txt" ]]; then
+    cp /defaults/dkim/default.txt  /config/dkim/default.txt
+fi
