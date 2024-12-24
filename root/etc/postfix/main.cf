@@ -693,6 +693,7 @@ inet_protocols = ipv4
 shlib_directory = /usr/lib/postfix
 meta_directory = /etc/postfix
 
+smtp_tls_security_level = may
 
 # smtp CA path (default to system-wide location)
 #smtpd_tls_CApath = /config/certs
