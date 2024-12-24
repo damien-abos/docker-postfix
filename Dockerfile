@@ -23,4 +23,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 25
-VOLUME /config
+VOLUME [ "/config", "/spool" ]

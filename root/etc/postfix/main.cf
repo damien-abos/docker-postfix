@@ -44,12 +44,6 @@ compatibility_level = 3.9
 #
 #soft_bounce = no
 
-# DATA BASE DIRECTORY
-#
-# The target data base directory.
-#
-data_base = /config
-
 # LOCAL PATHNAME INFORMATION
 #
 # The queue_directory specifies the location of the Postfix queue.
@@ -74,7 +68,7 @@ daemon_directory = /usr/libexec/postfix
 # data files (caches, random numbers). This directory must be owned
 # by the mail_owner account (see below).
 #
-data_directory = $data_base/lib/postfix
+data_directory =/var/lib/postfix
 
 # QUEUE AND PROCESS OWNERSHIP
 #
@@ -454,7 +448,7 @@ unknown_local_recipient_reject_code = 550
 # system type.
 #
 #mail_spool_directory = /var/mail
-mail_spool_directory = $data_base/spool/mail
+mail_spool_directory = /spool/mail
 
 # The mailbox_command parameter specifies the optional external
 # command to use instead of mailbox delivery. The command is run as

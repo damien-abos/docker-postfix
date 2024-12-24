@@ -3,8 +3,7 @@
 
 if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
     lsiown -R abc:postdrop \
-        /config/lib \
-        /config/spool \
+        /spool/mail \
         /var/lib/postfix
 
     lsiown -R abc:abc \
