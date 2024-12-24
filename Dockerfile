@@ -1,13 +1,7 @@
-
 # syntax=docker/dockerfile:1
 
 FROM ghcr.io/linuxserver/baseimage-alpine:edge
 
-# set version label
-ARG BUILD_DATE
-ARG VERSION
-#ARG POSTFIX_RELEASE
-LABEL build_version="Version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="damien-abos"
 
 ENV MYDOMAIN=domain.tld

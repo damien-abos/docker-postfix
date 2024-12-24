@@ -4,7 +4,6 @@
 # make folders
 mkdir -p \
     /config/lib/postfix \
-    /config/postfix \
     /config/spool/mail
 
 mkdir -p \

@@ -57,7 +57,7 @@ data_base = /config
 # See the files in examples/chroot-setup for setting up Postfix chroot
 # environments on different UNIX systems.
 #
-queue_directory = $data_base/postfix
+queue_directory = /var/lib/postfix
 
 # The command_directory parameter specifies the location of all
 # postXXX commands.
