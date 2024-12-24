@@ -23,11 +23,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "azuretools.vscode-docker",
-                "golang.go",
-                "ms-vscode.makefile-tools",
-                "ms-kubernetes-tools.vscode-kubernetes-tools",
-                "redhat.vscode-yaml"
+                "azuretools.vscode-docker"
             ]
         }
     }
