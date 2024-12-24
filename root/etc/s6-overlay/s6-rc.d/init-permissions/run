@@ -11,6 +11,6 @@ if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
         /run/opendkim
 fi
 
-if [[ -f "/config/dkim/default.private" ]]; then
-    chmod 600 /config/dkim/default.private
+if [[ -f "/config/dkim/dkim.key" ]]; then
+    chmod 600 /config/dkim/dkim.key
 fi

@@ -2,6 +2,10 @@
 
 FROM ghcr.io/linuxserver/baseimage-alpine:edge
 
+LABEL org.opencontainers.image.source=https://github.com/damien-abos/postfix
+LABEL org.opencontainers.image.description="Postfix using LinuxServer.io"
+LABEL org.opencontainers.image.licenses=GPL-3.0-or-later
+
 LABEL maintainer="damien-abos"
 
 ENV MYDOMAIN=domain.tld
